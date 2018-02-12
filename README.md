@@ -1,7 +1,7 @@
 # unuglify-ioe
 
 
-Chrome and Firefox extension to Unuglify IOE, mostly exam.ioe.edu.np. 
+Chrome and Firefox extension to Unuglify IOE, mostly https://exam.ioe.edu.np. 
 
 
 ## Getting Started
