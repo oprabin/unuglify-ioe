@@ -1,7 +1,7 @@
 {
 	"name": "Unuglify IoE",
 	"version": "0.1.0",
-	"description": "Unuglifying IOE",
+	"description": "Unuglifying exam.edu.np and other ioe sites.",
 	"author": "Rabindra Joshi <the.rjoshi@gmail.com>",
 	"homepage_url": "https://github.com/therj/unuglify-ioe",
 	"options_ui": {
@@ -14,7 +14,7 @@
 		"activeTab"
 	],
 	"content_scripts": [{
-		"matches": ["https://*.ioe.edu.np/*"],
+		"matches": ["*://*.ioe.edu.np/*"],
 		"js": ["scripts/inject.js"],
 		"css": ["styles/main.css"],
 		"run_at": "document_end"
