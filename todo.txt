@@ -1,0 +1,8 @@
+Login Page:
+ 1. Remove/blur background
+ 2. Add borders to... 
+ 3. Center Login button to input field with larger size.
+ 4. Remove YoungMinds branding.. ta da
+ 5. Add class "navbar-fixed-bottom" to footer instead of  "navbar-fixed-bottom1"
+
+ Add More...

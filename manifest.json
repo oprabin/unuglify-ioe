@@ -1,0 +1,26 @@
+{
+	"name": "Unuglify IoE",
+	"version": "0.1.0",
+	"description": "Unuglifying IOE",
+	"author": "Rabindra Joshi <the.rjoshi@gmail.com>",
+	"homepage_url": "https://github.com/therj/unuglify-ioe",
+	"options_ui": {
+		"page": "settings/settings.html",
+		"chrome_style": true
+	},
+	"manifest_version": 2,
+	"permissions": [
+		"storage",
+		"activeTab"
+	],
+	"content_scripts": [{
+		"matches": ["https://*.ioe.edu.np/*"],
+		"js": ["scripts/inject.js"],
+		"css": ["styles/main.css"],
+		"run_at": "document_end"
+	}],
+	"icons": {
+		"144": "images/icon.png"
+	},
+	"offline_enabled": true
+}

@@ -1,0 +1,8 @@
+HomePage: https://exam.ioe.edu.np
+
+Student Login: https://exam.ioe.edu.np/studentLogin/index
+LoggedIn: https://exam.ioe.edu.np/StudentDashboard/index
+
+Registration URL: 
+https://exam.ioe.edu.np/StudentExamRegistration/Index
+NEXT: https://exam.ioe.edu.np/StudentExamRegistration/Create/1008
