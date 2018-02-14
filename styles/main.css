@@ -1,3 +1,45 @@
-body{
+.nobgr{
 	background: none !important;
+}
+
+.loginLogo{
+	/*size: % important;*/
+	float: left !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.heading{
+	color: black !important;
+}
+
+.studentLogin{
+	font-size: 200% !important;
+	text-decoration: blink !important;
+	text-align: center !important;
+}
+
+.loginPanel{
+	margin-top: -100px
+	/*float: left !important;*/
+}
+.loginButton{
+	width: 100% !important;
+	/*height: 50px !important;*/
+	font-size: 25px !important;
+	font-weight: bold !important;
+	/*padding-left: 100% !important;*/
+	/*letter-spacing: 2px !important;*/
+}
+
+.RealLoginButton{
+	width: 100% !important;
+}
+
+button, input, keygen, meter, progress, select, textarea{
+	border-radius: 20px !important;
+}
+
+.navbar-fixed-bottom p{
+	color: blue !important;
 }
