@@ -1,9 +1,9 @@
-var studentLogin = "https://exam.ioe.edu.np/studentLogin/index";
+var studentLogin = "https://exam.ioe.edu.np/studentLogin";
 var panelHeadingText = "Student Login : Please login with below details "
 var newPanelHeadingText = "Student Login"
 var logInButtonText = " Log In ";
 
-if (window.location.href == studentLogin) {
+if (window.location.href == "^" + studentLogin) {
 
 	document.body.classList.add("nobgr");
 	var colorline = document.querySelector(".color-line")
