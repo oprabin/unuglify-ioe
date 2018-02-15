@@ -5,7 +5,7 @@
 .loginLogo{
 	/*size: % important;*/
 	float: left !important;
-	margin: 0 !important;
+	margin: -7px -80px !important;
 	padding: 0 !important;
 }
 
@@ -20,8 +20,9 @@
 }
 
 .loginPanel{
-	margin-top: -100px
+	margin-top: -100px !important;
 	/*float: left !important;*/
+
 }
 .loginButton{
 	width: 100% !important;
