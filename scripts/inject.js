@@ -1,9 +1,12 @@
-var studentLogin = "https://exam.ioe.edu.np/studentLogin";
+//use regex, if directly accessed at / or /index or /index/
+// var studentLogin = new RegExp("^https:\/\/exam\.ioe\.edu\.np\/studentLogin*");
+var studentLogin = "https://exam.ioe.edu.np/studentLogin/index";
+
 var panelHeadingText = "Student Login : Please login with below details "
 var newPanelHeadingText = "Student Login"
 var logInButtonText = " Log In ";
 
-if (window.location.href == "^" + studentLogin) {
+if (window.location.href == studentLogin) {
 
 	document.body.classList.add("nobgr");
 	var colorline = document.querySelector(".color-line")
@@ -35,7 +38,7 @@ if (window.location.href == "^" + studentLogin) {
 	loginButton.classList.add("loginButton");
 	loginButton.innerHTML = logInButtonText;
 
- RealLoginButton = loginButton.parentElement;
+var  RealLoginButton = loginButton.parentElement;
  RealLoginButton.children[0].setAttribute("style", "border-radius: 20px !important");
 
  footer = document.querySelector(".blue.navbar-fixed-bottom1")
