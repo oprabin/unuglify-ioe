@@ -1,14 +1,23 @@
 # unuglify-ioe
 
+Chrome and Firefox extension to Unuglify IOE, mostly https://exam.ioe.edu.np.
 
-Chrome and Firefox extension to Unuglify IOE, mostly https://exam.ioe.edu.np. 
+- Download from [Chrome Web Store](https://chrome.google.com/webstore/detail/unuglify-ioe/ampkcehegcggddnfljhgcjgbmnejfcfo).
+- Coming soon on Firefox and Opera.
+
+
+#### Before
+
+<img src="https://github.com/therj/unuglify-ioe/raw/master/images/without-extension.jpg" width="600"/>
+
+#### After
+
+<img src="https://github.com/therj/unuglify-ioe/raw/master/images/screenshot_v0.2.2.jpg" width="600"/>
 
 
 ## Getting Started
 
-### Installing
-- Download from [Chrome Web Store](https://chrome.google.com/webstore/detail/unuglify-ioe/ampkcehegcggddnfljhgcjgbmnejfcfo).
-- Coming soon on Firefox and Opera.
+### Play Around?
 
 - Clone the repo.
 
