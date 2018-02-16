@@ -64,4 +64,4 @@ We :heart: contributions. Feel free to send us a PR.
 
 This project is licensed under the GNU AFFERO GENERAL PUBLIC License - see the [LICENSE](LICENSE) file for details.
 
-Icon provided by [Open Iconic](http://www.useiconic.com/open).
+[Icon] (https://thenounproject.com/term/paint-palette/48971/) provided by [Luis Prado] (https://thenounproject.com/Luis/) from [The Noun Project] (https://thenounproject.com) 
